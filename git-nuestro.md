@@ -1,6 +1,6 @@
-*Git* nuestro
+Git nuestro
 
-Git nuesto que estas en los repos
+*Git* nuesto que estas en los repos
 
 Comprimidos sean tus *commits*
 
@@ -14,7 +14,7 @@ Perdona nuestros *conflictos*
 
 Como también perdonamos los de otros geeks
 
-Nno nos dejes caer en *detached HEAD*
+No nos dejes caer en *detached HEAD*
 
 y líbranos de *SVN*
 
