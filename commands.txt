@@ -1,0 +1,67 @@
+1) git clone https://github.com/miguelferlez/keepcoding-practica-git-github.git
+   cd keepcoding-practica-git-github
+2) nano git-nuestro.md
+3) git add git-nuestro.md
+4) git commit -m 'Add git-nuestro.md'
+5) git branch styled
+6) git branch
+7) git checkout styled
+8) git branch
+9) nano git-nuestro.md
+10) git commit -m 'Modify git-nuestro.md'
+11) git reset HEAD~1
+12) git reflog 
+	git reset --hard 28978fc
+13) git merge main
+14) git checkout main 
+15) git branch htmlify
+16) git checkout htmlify
+17) nano git-nuestro.md
+18) git add git-nuestro.md
+	git commit -m 'Tagging git-nuestro.md'
+19) git checkout styled
+	git merge htmlify
+20) nano git-nuestro.md
+	git add git-nuestro.md
+	git commit -m 'Merge branch htmlify into styled'
+21) git checkout main
+	git merge styled
+22) git checkout -b title
+23) nano git-nuestro.md
+	git add git-nuestro.md
+	git commit -m 'Modify title in git-nuestro.md'
+24) git checkout main
+25) git log --graph --decorate --oneline
+26) git merge --no-ff title
+27) git reflog
+	git reset --hard ef70252
+28) git restore git-nuestro.md
+29) git branch -D title
+30) git reflog
+	git reset --hard 535f3a5
+31) git checkout main
+	git branch -D htmlify
+	git branch -D styled
+32) git reflog
+	git checkout 4855086f
+33) git reflog
+	git checkout 535f5a5f
+34)	git reflog
+	git checkout 4855086f
+	git tag inicial
+	git checkout 4855086f
+	git tag styled
+	git checkout 259cc153
+	git tag htmlify
+	git checkout 0b5067d7
+	git tag title
+35) git checkout htmlify
+36) git checkout main
+	git push origin styled
+	git push origin htmlify
+	git push origin title
+37) git push origin main
+	git push origin tag inicial
+	git push origin tag styled
+	git push origin tag htmlify
+	git push origin tag title
